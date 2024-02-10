@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the article card */
+.article-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.article-card img {
+  max-width: 100%;
+  height: auto; /* Ensure image aspect ratio is maintained */
+}
+
+.article-card h2 {
+  margin-top: 8px;
+}
+
+.article-card p {
+  margin-bottom: 16px;
+}
+
+.article-card .meta-info {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Styling for the article detail screen */
+.article-detail {
+  padding: 16px;
+}
